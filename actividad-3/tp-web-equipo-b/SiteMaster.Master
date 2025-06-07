@@ -14,9 +14,32 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <%--Navbar--%>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">APP</a>
+                    <a class="navbar-brand" href="">🎁 Mi Sorteo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation" title="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <!-- Opcional: otras secciones -->
+                            <li class="nav-item me-3">
+                                <span class="nav-link disabled text-white">🙎 Usuario: <strong>user@server.com</strong>
+                                </span>
+                            </li>
+                            <!-- Dropdown para futuras acciones -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">Opciones
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="">Ver perfil</a></li>
+                                    <li><a class="dropdown-item" href="">Cerrar sesión</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -24,10 +47,9 @@
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-
-            <footer>
-                <hr />
-                <p>Footer</p>
+            <%--Footer--%>
+            <footer class="bg-dark text-white text-center py-3 mt-auto">
+                <small> 2025 - Experiencia Universidad.</small>
             </footer>
         </div>
     </form>
