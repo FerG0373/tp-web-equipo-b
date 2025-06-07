@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp-web-equipo-b", "tp-web-equipo-b\tp-web-equipo-b.csproj", "{CC25A6E8-A068-448E-A259-B6E0D24E1534}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentacion", "tp-web-equipo-b\presentacion.csproj", "{CC25A6E8-A068-448E-A259-B6E0D24E1534}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{403695BC-C009-45C8-A491-A13C352F152A}"
 EndProject

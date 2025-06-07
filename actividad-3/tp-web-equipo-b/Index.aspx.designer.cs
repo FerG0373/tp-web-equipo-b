@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace tp_web_equipo_b
+namespace presentacion
 {
 
 

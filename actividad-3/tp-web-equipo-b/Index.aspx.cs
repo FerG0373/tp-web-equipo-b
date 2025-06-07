@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace tp_web_equipo_b
+namespace presentacion
 {
     public partial class Index : System.Web.UI.Page
     {
