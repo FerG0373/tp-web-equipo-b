@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace presentacion
 {
-    public partial class IngresarCodigo : System.Web.UI.Page
+    public partial class ElegirPremio : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-        protected void btnSiguiente_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("ElegirPremio.aspx");
         }
     }
 }
