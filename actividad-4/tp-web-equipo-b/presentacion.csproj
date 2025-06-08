@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ElegirPremio.aspx" />
-    <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="IngresarCodigo.aspx" />
     <Content Include="assets\style\StyleSheet.css" />
@@ -81,9 +80,6 @@
     </Compile>
     <Compile Include="ElegirPremio.aspx.designer.cs">
       <DependentUpon>ElegirPremio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
